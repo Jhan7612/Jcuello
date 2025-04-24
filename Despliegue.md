@@ -24,7 +24,7 @@ Antes de empezar, asegúrate de contar con:
 
 ## 🌀 **1. Haz un Fork del Repositorio**
 ### Pasos:
-1. Ve al repositorio original en GitHub: [Haz clic aquí](https://github.com/Albertohincapie11/albertacho).
+1. Ve al repositorio original en GitHub: [Haz clic aquí](https://github.com/rcuello/ac4dem1a).
 2. Pulsa el botón **"Fork"** (arriba a la derecha).
 3. Selecciona tu cuenta de GitHub como destino del fork.
 4. *(Opcional)* Cambia el nombre del repositorio si lo deseas.
@@ -74,11 +74,5 @@ Antes de empezar, asegúrate de contar con:
 }
 ---
 
-## 🧑‍💻 **¿Quién creó este programa?**
-El creador del programa es **Jhan Carlos Cuello Vergara**, experto en diversas áreas que aportan valor a este proyecto:
 
-### **Experiencias destacadas**
-- **👨‍💻 Desarrollador de software**: Diseñando soluciones técnicas innovadoras.
-- **📋 Líder de proyectos institucionales**: Gestionando y ejecutando proyectos estratégicos.
-- **📈 Marketing digital**: Impulsando la presencia de marcas en el ecosistema digital.
-- **🖥️ Digitalizador**: Transformando procesos tradicionales en eficiencias modernas.
+
