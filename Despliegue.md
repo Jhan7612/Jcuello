@@ -1,66 +1,55 @@
-# 🌐 **Despliegue de un Sitio en Azure Static Web Apps (100% en la nube)**
+# 🚀 Despliega tu Pokedex en Azure con Estilo 🌟
 
-¡Aprende cómo desplegar tu aplicación en la nube con este tutorial increíblemente dinámico y 100% práctico! 🚀
+¡Lleva tu Pokedex a la nube de manera súper sencilla y visual! ☁️
 
----
-
-## 📋 **Información del Proyecto**
-- **🌟 Autor:** Jhan Carlos Cuello Vergara 
-- **📂 Repositorio:** [Enlace al repositorio de GitHub](https://github.com/Jhan7612/Jcuello)  
-- **📚 Asignatura:** Sistemas Distribuidos  
-- **🎓 Semestre:** 9no Semestre - Ingeniería de Sistemas  
-- **📅 Fecha:** 25/04/2025  
-- **🔗 URL del sitio desplegado:** [Delightful Field](https://nice-cliff-073b80310.6.azurestaticapps.net)  
+📌 **Información del Proyecto**
+- **Web:** [Delightful Field](https://delightful-field-02ef8bb10.6.azurestaticapps.net/)
+- **Autor:** Alberto José Hincapié Martínez
+- **Repositorio:** [albertacho](https://github.com/Albertohincapie11/albertacho)
+- **Asignatura:** Sistemas Distribuidos
+- **Semestre:** Noveno semestre - Ingeniería de Sistemas
+- **Fecha:** 13/04/2025
 
 ---
 
-## 🛠 **Requisitos Previos**
-Antes de empezar, asegúrate de contar con:
-- ✅ Una cuenta en **GitHub**.
-- ✅ Una cuenta activa en **Azure**.
-- ✅ Entre **5 y 10 minutos** de tu tiempo.
+## 🎯 Pasos para el Despliegue
+
+### 🍴 Paso 1: ¡A Bifurcar el Código! 🛠️
+- Dirígete al repositorio original del código de Pokedex: [Pokedex Lab](https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab).
+- Haz clic en **Fork** en la esquina superior derecha.
+- Asigna un nombre como `albertacho` y presiona **Create Fork** 🎉.
 
 ---
 
-## 🌀 **1. Haz un Fork del Repositorio**
-### Pasos:
-1. Ve al repositorio original en GitHub: [Haz clic aquí](https://github.com/rcuello/ac4dem1a).
-2. Pulsa el botón **"Fork"** (arriba a la derecha).
-3. Selecciona tu cuenta de GitHub como destino del fork.
-4. *(Opcional)* Cambia el nombre del repositorio si lo deseas.
+### 🗺️ Paso 2: Navegando a la Ubicación Correcta 🧭
+- Accede a tu nuevo repositorio: [albertacho](https://github.com/albertacho/albertacho).
+- Navega hasta `albertacho/.github/workflows/`.
+- Encuentra el archivo `azure-static-web-apps-delightful-field-02ef8bb10.yml` y haz clic en el ✏️ **ícono del lápiz**.
+- Edita la línea #31:
+  ```yaml
+  app_location: "./sistemas-distribuidos/poke-dex-lab/source/pokedex-angular"
+Guarda los cambios con Commit changes ✅.
 
-🎉 ¡Ahora tienes tu propia copia del repositorio!
+🚦 Paso 3: ¡Luces, Cámara, Actions! ✨
+Ve a la pestaña Actions en tu repositorio.
 
----
+Verifica que el flujo de trabajo de Azure Static Web Apps esté ejecutándose. Espera a que diga "completado" ⏳.
 
-## ☁️ **2. Crea una Static Web App en Azure**
-### Pasos:
-1. Accede al **Portal de Azure**: [Ir al portal](https://portal.azure.com).
-2. Busca "Static Web Apps" y haz clic en **Crear**.
-3. Completa los siguientes campos:
-   - **Subscription:** Tu suscripción activa en Azure.
-   - **Resource Group:** Crea uno nuevo o selecciona uno existente.
-   - **Name:** Elige un nombre único para tu aplicación.
-   - **Region:** Selecciona la región más cercana a tus usuarios.
-   - **Deployment Source:** Elige **GitHub**.
-4. Autoriza a Azure a acceder a tu cuenta de GitHub si es tu primera vez.
-5. Selecciona el **repositorio fork** que creaste.
-6. Escoge la rama principal (**main** o **master**).
-7. En **Build Details**, configura lo siguiente:
-   - **Build Presets:** El tipo de aplicación (React, Angular, Vue, etc.) o selecciona **Custom**.
-   - **App Location:** Ruta raíz del código fuente (`/` si está en la raíz).
-   - **Output Location:** Carpeta donde se genera el sitio compilado (`dist/`, `build/`, etc.).
-8. Revisa todo y haz clic en **Crear**.
+🚀 Paso 4: Despegue a la Nube ☁️
+Accede a App Services en Azure.
 
-⏳ ¡Azure se encargará del resto! 🚀
+Haz clic en el nombre de tu Static Web App.
 
----
+En la sección de URL, encontrarás el enlace mágico a tu Pokedex 🌐. ¡Haz clic y disfruta! 👀
 
-## 🛡️ **3. Agrega Cabeceras de Seguridad**
-1. Crea un archivo llamado `staticwebapp.config.json` en tu repositorio.
-2. Copia y pega el siguiente contenido para mejorar la seguridad HTTP:
+🛡️ Paso 5: Configuración de Seguridad 🔒
+Desde tu repositorio albertacho, navega a sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/.
 
-```json
+Crea un archivo llamado staticwebapp.config.json.
+
+Añade el siguiente contenido:
+
+json
 {
   "globalHeaders": {
     "Content-Security-Policy": "default-src 'self'; img-src 'self' https://raw.githubusercontent.com https://pokeapi.co https://assets.pokemon.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://beta.pokeapi.co",
@@ -72,8 +61,26 @@ Antes de empezar, asegúrate de contar con:
     "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
   }
 }
+Guarda los cambios con Commit changes ✅.
 
----
+🖼️ Paso 6: Carga de Imágenes de Pokémon 🎨
+Ve a albertacho/sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/src/environments/.
+
+Edita environment.prod.ts y cambia la ruta de imágenes:
+
+typescript
+imagesPath: '/assets/images';
+Guarda los cambios con Commit changes ✅.
+
+🎉 ¡Todo Listo!
+Verifica nuevamente en Actions que el proceso haya terminado.
+
+¡Tu Pokedex está desplegado en la nube con imágenes funcionando perfectamente! 🎨
+
+¡Ahora disfruta de tu creación y compártela con el mundo! 🚀
+
+
+Espero que este formato te ayude a presentar tu guía con un toque más moderno y profesion
 
 
 
