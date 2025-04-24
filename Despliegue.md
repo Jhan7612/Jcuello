@@ -13,7 +13,7 @@
 
 🌟 **¡Prepárate para llevar tu Pokedex a la nube!** Sigue esta guía paso a paso para desplegarla con éxito en Azure, de una forma sencilla, segura y ¡con estilo! 🚀🌈
 
-## 1. 🍴 ¡A Clonar el Código! (Forking Time!) 🛠️
+## 1. 🍴 ¡A Clonar el Código!  🛠️
 
 1.  Ve directo al corazón del código Pokedex: [https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab](https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab)
 2.  En la esquina superior derecha, ¡busca el botón **Fork** y haz clic! 👆
@@ -21,7 +21,7 @@
 
 ---
 
-## 2. 🗺️ ¡Navegando a la Ubicación Correcta! (App Location Adventure!) 🧭
+## 2. 🗺️ ¡Navegando a la Ubicación Correcta!  🧭
 
 1.  ¡Tu nuevo hogar para el código! 🏡 Visita: [https://github.com/Jhan7612/Jcuello](https://github.com/Jhan7612/Jcuello) 
 2.  Sumérgete en las carpetas: **(https://github.com/Jhan7612/Jcuello)** 📂
@@ -39,14 +39,14 @@
 
 ---
 
-## 3. 🚦 ¡EMPEZEMOS! (Checking the Magic!) ✨
+## 3. 🚦 ¡EMPEZEMOS! ✨
 
 1.  En la parte superior de tu repo, ¡haz clic en **Actions**! 🎬
 2.  Verás un flujo de trabajo en acción (o ya terminado) de Azure Static Web Apps. ¡Espera a que diga "completado" para estar seguro! ⏳
 
 ---
 
-## 4. 🚀 ¡Despegue a la Nube de Azure! (Azure Deployment!) ☁️
+## 4. 🚀 ¡Despegue a la Nube de Azure!  ☁️
 
 1.  ¡Dirígete a tu **App Services** en Azure! 🌠
 2.  Haz clic en el nombre de tu Static Web App.
@@ -55,7 +55,7 @@
 
 ---
 
-## 5. 🛡️ ¡Añadiendo Escudos de Seguridad y Rutas Inteligentes! (Security & Navigation!) 🧭
+## 5. 🛡️ ¡Añadiendo Escudos de Seguridad y Rutas Inteligentes!  🧭
 
 1.  De vuelta a tu repositorio: [https://github.com/Jhan7612/Jcuello](https://github.com/Jhan7612/Jcuello) 
 2.  Navega a: **sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/** 📂
@@ -80,7 +80,7 @@
 
 ---
 
-## 6. 🖼️ ¡Dando Vida a los Pokémon con Imágenes! (Loading Pokemon Images!) 🎨
+## 6. 🖼️ ¡Dando Vida a los Pokémon con Imágenes! 🎨
 
 1.  Ve a esta ruta en tu repo: **Jcuello/sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/src/environments/** 📂
 2.  ¡Edita el archivo **environment.prod.ts**! ✏️
