@@ -75,21 +75,7 @@ Antes de empezar, asegúrate de contar con:
 
 ---
 
-🧑‍💻 ¿Quién creó este programa?
-El creador del programa es Jhan Carlos Cuello Vergara, experto en diversas áreas que aportan valor a este proyecto:
 
-Experiencias destacadas
-👨‍💻 Desarrollador de software: Diseñando soluciones técnicas innovadoras.
-
-📋 Líder de proyectos institucionales: Gestionando y ejecutando proyectos estratégicos.
-
-📈 Marketing digital: Impulsando la presencia de marcas en el ecosistema digital.
-
-🖥️ Digitalizador: Transformando procesos tradicionales en eficiencias modernas.
-
-Gracias a su dedicación y experiencia, este tutorial está diseñado para que despliegues aplicaciones en la nube de manera sencilla y efectiva. 🚀✨
-
-✨ ¡Y eso es todo! Ahora tienes tu aplicación 100% operativa en la nube. Sigue creando y compartiendo tu innovación con el mundo. 🌍
 
 
 
