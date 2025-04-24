@@ -98,29 +98,16 @@
 
 ---
 
-## 🌟 **Creador del Proyecto** 🙌
+---
 
-<div align="center" style="border: 3px solid #ffcb05; border-radius: 15px; padding: 20px; background: linear-gradient(135deg, #f5f7fa 0%, #e4f0fc 100%); margin: 20px 0;">
+## 🧑‍💻 **¿Quién creó este programa?**
+El creador del programa es **Jhan Carlos Cuello Vergara**, experto en diversas áreas que aportan valor a este proyecto:
 
-[![GitHub Follow](https://img.shields.io/github/followers/Albertohincapie11?style=social&label=Síguelo%20en%20GitHub!)](https://github.com/Albertohincapie11)
-
-### 🧙‍♂️ **Alberto José Hincapié Martínez**  
-#### *"Estudiante Apasionado de Ingeniería de Sistemas"*  
-
-[![Portafolio Badge](https://img.shields.io/badge/🎮_Mi_Universo_Digital-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Albertohincapie11)
-
-</div>
-
-### 🏆 Habilidades Especiales:
-- 🛠️ **Auxiliar Multifuncional**: Apoyo en Sistemas. IT y TIC.
-- 💻 **Desarrollo de Software**: Full Stack Developer (front-end + back-end)
-- 🔐 **Ciberseguridad**: Proteccón de datos y redes.
-- 🖥️ **Mantenimiento de Computadores**: Diagnóstico y reparación de equipos.
-- 🎨 **Herramientas Digitales**: 
-  - Excel: Analisis de datos.
-  - Photoshop: Diseño y edición gráfica.
-- ⚕️ **SG-SST (50 Horas)**: Formación en seguridad laboral
-- 📢 **Marketing Digital**: Estrategias en SEO y redes sociales.
+### **Experiencias destacadas**
+- **👨‍💻 Desarrollador de software**: Diseñando soluciones técnicas innovadoras.
+- **📋 Líder de proyectos institucionales**: Gestionando y ejecutando proyectos estratégicos.
+- **📈 Marketing digital**: Impulsando la presencia de marcas en el ecosistema digital.
+- **🖥️ Digitalizador**: Transformando procesos tradicionales en eficiencias modernas.
 
 
 
