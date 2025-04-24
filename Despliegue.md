@@ -1,16 +1,17 @@
-# 🚀 ¡Despliega tu Pokedex en Azure con Estilo! 🌟
+# 🚀✨  ¡Despliega tu Pokedex en Azure con Estilo! 🌐💡
 
-### Link de la web en la nube: [https://delightful-field-02ef8bb10.6.azurestaticapps.net/](https://delightful-field-02ef8bb10.6.azurestaticapps.net/)
+### Link de la web en la nube: [WEB EN LA NUBE](https://nice-cliff-073b80310.6.azurestaticapps.net)
 
-✍️ **Autor:** Alberto José Hincapié Martínez   
-📂 **Repositorio:** [https://github.com/Albertohincapie11/albertacho](https://github.com/Albertohincapie11/albertacho)   
-📚 **Asignatura:** Sistemas Distribuidos   
-🎓 **Semestre:** 9no semestre - Ingeniería de Sistemas   
-📅 **Fecha:** 13/04/2025 
+📚 **Información del Proyecto**  
+- 🖋️ **Autor:** Jhan Carlos Cuello Vergara  
+- 💻 **Repositorio:** [GitHub: Jcuello](https://github.com/Jhan7612/Jcuello)  
+- 🏫 **Asignatura:** Sistemas Distribuidos  
+- 🎓 **Semestre:** 9º Semestre - Ingeniería de Sistemas  
+- 📅 **Fecha:** 25 de abril de 2025  
 
 ---
 
-¡Prepárate para llevar tu Pokedex a la nube de una manera súper sencilla y visual! ☁️
+🌟 **¡Prepárate para llevar tu Pokedex a la nube!** Sigue esta guía paso a paso para desplegarla con éxito en Azure, de una forma sencilla, segura y ¡con estilo! 🚀🌈
 
 ## 1. 🍴 ¡A Bifurcar el Código! (Forking Time!) 🛠️
 
@@ -22,7 +23,7 @@
 
 ## 2. 🗺️ ¡Navegando a la Ubicación Correcta! (App Location Adventure!) 🧭
 
-1.  ¡Tu nuevo hogar para el código! 🏡 Visita: [https://github.com/albertacho/albertacho](https://github.com/albertacho/albertacho)
+1.  ¡Tu nuevo hogar para el código! 🏡 Visita: [https://github.com/Jhan7612/Jcuello](https://github.com/Jhan7612/Jcuello) 
 2.  Sumérgete en las carpetas: **albertacho/.github/workflows/** 📂
 3.  Encuentra el archivo mágico **azure-static-web-apps-delightful-field-02ef8bb10.yml** (¡puede tener un nombre ligeramente diferente!).
 4.  ¡Es hora de editar! ✏️ Haz clic en el icono del lápiz.
@@ -56,7 +57,7 @@
 
 ## 5. 🛡️ ¡Añadiendo Escudos de Seguridad y Rutas Inteligentes! (Security & Navigation!) 🧭
 
-1.  De vuelta a tu repositorio: [https://github.com/albertacho/albertacho](https://github.com/Albertohincapie11/albertacho)
+1.  De vuelta a tu repositorio: [https://github.com/Jhan7612/Jcuello](https://github.com/Jhan7612/Jcuello) 
 2.  Navega a: **sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/** 📂
 3.  ¡Crea un nuevo archivo! ➕ Haz clic en **Add file** y luego en **Create new file**.
 4.  ¡Nómbralo con estilo! 🏷️ **staticwebapp.config.json**
