@@ -1,4 +1,4 @@
-# 🚀✨  ¡Despliega tu Pokedex en Azure con Estilo! 🌐💡
+# 🚀✨  ¡Pasos para desplegar tu Pokedex en Azure con Estilo! 🌐💡
 
 ### Link de la web en la nube: [WEB EN LA NUBE](https://nice-cliff-073b80310.6.azurestaticapps.net)
 
@@ -13,7 +13,7 @@
 
 🌟 **¡Prepárate para llevar tu Pokedex a la nube!** Sigue esta guía paso a paso para desplegarla con éxito en Azure, de una forma sencilla, segura y ¡con estilo! 🚀🌈
 
-## 1. 🍴 ¡A Bifurcar el Código! (Forking Time!) 🛠️
+## 1. 🍴 ¡A Clonar el Código! (Forking Time!) 🛠️
 
 1.  Ve directo al corazón del código Pokedex: [https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab](https://github.com/rcuello/ac4dem1a/tree/master/sistemas-distribuidos/poke-dex-lab)
 2.  En la esquina superior derecha, ¡busca el botón **Fork** y haz clic! 👆
@@ -24,10 +24,10 @@
 ## 2. 🗺️ ¡Navegando a la Ubicación Correcta! (App Location Adventure!) 🧭
 
 1.  ¡Tu nuevo hogar para el código! 🏡 Visita: [https://github.com/Jhan7612/Jcuello](https://github.com/Jhan7612/Jcuello) 
-2.  Sumérgete en las carpetas: **albertacho/.github/workflows/** 📂
-3.  Encuentra el archivo mágico **azure-static-web-apps-delightful-field-02ef8bb10.yml** (¡puede tener un nombre ligeramente diferente!).
+2.  Sumérgete en las carpetas: **(https://github.com/Jhan7612/Jcuello)** 📂
+3.  Encuentra el archivo mágico **azure-static-web-apps-delightful-field-02ef8bb10.yml** (¡puede tener un nombre  diferente!).
 4.  ¡Es hora de editar! ✏️ Haz clic en el icono del lápiz.
-5.  Busca la línea **#31**:
+
     ```yaml
     app_location:
     ```
@@ -39,7 +39,7 @@
 
 ---
 
-## 3. 🚦 ¡Luces, Cámara, Actions! (Checking the Magic!) ✨
+## 3. 🚦 ¡EMPEZEMOS! (Checking the Magic!) ✨
 
 1.  En la parte superior de tu repo, ¡haz clic en **Actions**! 🎬
 2.  Verás un flujo de trabajo en acción (o ya terminado) de Azure Static Web Apps. ¡Espera a que diga "completado" para estar seguro! ⏳
@@ -82,7 +82,7 @@
 
 ## 6. 🖼️ ¡Dando Vida a los Pokémon con Imágenes! (Loading Pokemon Images!) 🎨
 
-1.  Ve a esta ruta en tu repo: **albertacho/sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/src/environments/** 📂
+1.  Ve a esta ruta en tu repo: **Jcuello/sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/src/environments/** 📂
 2.  ¡Edita el archivo **environment.prod.ts**! ✏️
 3.  Busca la línea de la ruta de las imágenes:
     ```typescript
@@ -93,9 +93,9 @@
     imagesPath: '/assets/images',
     ```
 5.  ¡Guarda los cambios con **Commit changes**! ✅
-6.  ¡Una última visita a **Actions**! ⏳ Espera a que termine el proceso. ¡Y voilà! 🎉 Tus imágenes de Pokémon deberían aparecer.
+6.  ¡Una última visita a **Actions**! ⏳ Espera a que termine el proceso. ¡Y listo! 🎉 Tus imágenes de Pokémon deberían aparecer.
 
-¡Felicidades! 🎉 Has desplegado tu Pokedex en Azure Static Web Apps y has configurado todo para que luzca increíble. ¡Disfruta de tu Pokedex en la nube! 🚀
+¡Enhorabuena! 🎊 Tu Pokedex ya está funcionando en Azure Static Web Apps y ha quedado espectacular. Ahora está listo para brillar en la nube, ¡disfrútalo al máximo! 🚀☁️ 🚀
 
 ---
 
