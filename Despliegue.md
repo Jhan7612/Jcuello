@@ -46,12 +46,12 @@
 
 ---
 
-## 4. 🚀 ¡Despegue a la Nube de Azure!  ☁️
+## 4. 🚀 ¡Despliegue a la Nube de Azure!  ☁️
 
 1.  ¡Dirígete a tu **App Services** en Azure! 🌠
 2.  Haz clic en el nombre de tu Static Web App.
-3.  ¡Busca el botón **Ir al recurso** y haz clic con emoción! 😄
-4.  En la sección de **URL**, ¡encontrarás el enlace mágico a tu Pokedex en la web! 🌐 ¡Haz clic para verlo! 👀
+3.  ¡Busca el botón **Ir al recurso** y haz clic! 😄
+4.  En la sección de **URL**, ¡encontrarás el enlace mágico a tu Pokedex en la web! 🌐 [WEB EN LA NUBE](https://nice-cliff-073b80310.6.azurestaticapps.net) 👀
 
 ---
 
