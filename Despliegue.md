@@ -48,8 +48,6 @@ Desde tu repositorio albertacho, navega a sistemas-distribuidos/poke-dex-lab/sou
 Crea un archivo llamado staticwebapp.config.json.
 
 Añade el siguiente contenido:
-
-json
 {
   "globalHeaders": {
     "Content-Security-Policy": "default-src 'self'; img-src 'self' https://raw.githubusercontent.com https://pokeapi.co https://assets.pokemon.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://beta.pokeapi.co",
@@ -61,14 +59,13 @@ json
     "exclude": ["/images/", "/css/", "/js/*", "/favicon.ico"]
   }
 }
+
 Guarda los cambios con Commit changes ✅.
 
 🖼️ Paso 6: Carga de Imágenes de Pokémon 🎨
 Ve a albertacho/sistemas-distribuidos/poke-dex-lab/source/pokedex-angular/src/environments/.
 
 Edita environment.prod.ts y cambia la ruta de imágenes:
-
-typescript
 imagesPath: '/assets/images';
 Guarda los cambios con Commit changes ✅.
 
@@ -78,10 +75,6 @@ Verifica nuevamente en Actions que el proceso haya terminado.
 ¡Tu Pokedex está desplegado en la nube con imágenes funcionando perfectamente! 🎨
 
 ¡Ahora disfruta de tu creación y compártela con el mundo! 🚀
-
-
-Espero que este formato te ayude a presentar tu guía con un toque más moderno y profesion
-
 
 
 
