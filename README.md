@@ -67,7 +67,7 @@ Llena el formulario con los siguientes datos:
 | "Institución no válida"                | Usa documentos estudiantiles para verificación manual.                                           |
 | "Cuenta ya registrada, sin créditos"  | Regístrate en el programa **Azure Starter**, que te permite activar créditos adicionales.        |
 
-- **Link para Azure Starter**: [Azure Starter Program]([https://azure.microsoft.com/free](https://azure.microsoft.com/es-es/pricing/offers/ms-azr-0144p))
+- **Link para Azure Starter**:([https://azure.microsoft.com/free](https://azure.microsoft.com/es-es/pricing/offers/ms-azr-0144p)
 
 ---
 
