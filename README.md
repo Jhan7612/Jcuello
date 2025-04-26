@@ -3,7 +3,7 @@
 ## 🧩 **Requisitos Iniciales**
 - **Correo electrónico institucional**: ej. `tu_nombre@universidad.edu`
 - **Cuenta Microsoft**: Puedes crearla durante el proceso.
-- **Tiempo requerido**: Solo necesitas **5-10 minutos**.
+- **Tiempo requerido**: Solo necesitas **40-45 minutos**.
 
 ---
 
